@@ -26,8 +26,4 @@ def binary_search(arr, x) -> tuple:
 
 arr = [2.4, 3.5, 4.1, 10.03, 40.1]
 x = 10
-result = binary_search(arr, x)
-if result != -1:
-    print(f"Element is present at index {result}")
-else:
-    print("Element is not present in array")
+print(binary_search(arr, x))
