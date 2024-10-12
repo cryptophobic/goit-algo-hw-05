@@ -1,4 +1,4 @@
-def binary_search(arr, x) -> tuple[]:
+def binary_search(arr, x) -> tuple:
     low = 0
     high = len(arr) - 1
     iterations = 0
